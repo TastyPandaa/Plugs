@@ -43,6 +43,9 @@ public enum Spells
 	WIND_STRIKE("Wind Strike", WidgetInfo.SPELL_WIND_STRIKE),
 	WIND_SURGE("Wind Surge", WidgetInfo.SPELL_WIND_SURGE),
 	WIND_WAVE("Wind Wave", WidgetInfo.SPELL_WIND_WAVE),
+	
+	//Lunars
+	PLANK_MAKE("Plank Make", WidgetInfo.SPELL_PLANK_MAKE),
 
 	//Curses
 	CHARGE("Charge", WidgetInfo.SPELL_CHARGE),
