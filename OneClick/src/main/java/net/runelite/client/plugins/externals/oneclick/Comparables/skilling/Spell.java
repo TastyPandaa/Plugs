@@ -78,7 +78,7 @@ public class Spell extends ClickCompare
 				case PLANK_MAKE:
 					if (spell.getSpriteId() != SpriteID.SPELL_PLANK_MAKE ||
 						spell.getSpriteId() == SpriteID.SPELL_PLANK_MAKE_DISABLED ||
-						client.getBoostedSkillLevel(Skill.MAGIC) < 55 ||
+						client.getBoostedSkillLevel(Skill.MAGIC) < 86 ||
 						client.getVarbitValue(4070) != 0)
 					{
 						clickItem = null;
@@ -202,7 +202,7 @@ public class Spell extends ClickCompare
 					setTargetItem.setTarget("<col=00ff00>High Alchemy Item <col=ffffff> -> " + firstEntry.getTarget());
 					break;
 				case PLANK_MAKE:
-					setTargetItem.setTarget("<col=00ff00>Plank Make Item <col=ffffff> -> " + firstEntry.getTarget());
+					setTargetItem.setTarget("<col=00ff00>Plank Make <col=ffffff> -> " + firstEntry.getTarget());
 					break;
 				case SUPERHEAT:
 					setTargetItem.setTarget("<col=00ff00>Superheat Item <col=ffffff> -> " + firstEntry.getTarget());
